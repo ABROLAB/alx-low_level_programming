@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * main description - print if a number is positive, nagative or zero
- * Return Always 0 (Success)
+ * main: Entry point
+ * print if a number is positive, nagative or zero
+ * Return:  Always 0 (Success)
  *
  */
 

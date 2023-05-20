@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- * main -print if a number is positive, nagative or zero
+ * main - Entry point
+ * main description - print if a number is positive, nagative or zero
  * Return Always 0 (Success)
  *
  */
@@ -25,7 +26,7 @@ int main(void)
 	}
 	else
 	{
-		printf("%d is nagative\n",  n);
+		printf("%d is negative\n",  n);
 	}
 	return (0);
 }

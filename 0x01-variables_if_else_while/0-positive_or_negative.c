@@ -3,28 +3,29 @@
 #include <stdio.h>
 
 /**
- * main -mDetermines if a number is positivite, nagative or zero
- *
+ * main -print if a number is positive, nagative or zero
  * Return Always 0 (Success)
+ *
  */
 
 int main(void)
 {
-	int a;
+	int n;
+
 	srand(time(0));
-	a = rand() - RAND_MAX/2;
-	if(a > 0)
+	n = rand() - RAND_MAX / 2;
+
+	if (n > 0)
 	{
-		printf("%d is positive\n",a);
+		printf("%d is positive\n", n);
 	}
-	else if(a == 0)
+	else if (n == 0)
 	{
-		printf("%d is zero\n",a);
+		printf("%d is zero\n", n);
 	}
 	else
 	{
-		printf("%d is nagative\n",a);
+		printf("%d is nagative\n",  n);
 	}
-	return(0);
-
+	return (0);
 }

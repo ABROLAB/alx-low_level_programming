@@ -1,6 +1,6 @@
 #include<stdlib.h>
 #include<time.h>
-#include <sdio.h>
+#include <stdio.h>
 
 /**
  * main -mDetermines if a number is positivite, nagative or zero

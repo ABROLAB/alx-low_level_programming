@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<main.h>
 /**
  * main - Entry point
  * print putchar in new line
